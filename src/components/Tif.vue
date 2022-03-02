@@ -22,8 +22,8 @@ export default class Tif extends Vue {
   }
 
   fetchImage() {
-    fetch("https://drive.google.com/file/d/1Xe7kmr8umIDjpra_oAmfxZSqT_2oMQft/view?usp=sharing")
-    // fetch("https://viv-demo.storage.googleapis.com/LuCa-7color_3x3component_data.ome.tif")
+    // fetch("https://drive.google.com/file/d/1Xe7kmr8umIDjpra_oAmfxZSqT_2oMQft/view?usp=sharing")
+    fetch("https://viv-demo.storage.googleapis.com/LuCa-7color_3x3component_data.ome.tif")
       .then(response => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
